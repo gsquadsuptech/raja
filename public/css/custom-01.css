@@ -1,0 +1,111 @@
+/*#sidebar_main {*/
+    /*padding-top: 129px;*/
+    /*animation: colorchange 8s; !* animation-name followed by duration in seconds*!*/
+    /*!* you could also use milliseconds (ms) or something like 2.5s *!*/
+    /*-webkit-animation: colorchange 8s; !* Chrome and Safari *!*/
+    /*background: #fff;*/
+/*}*/
+
+/*@keyframes colorchange*/
+/*{*/
+    /*0%   {background: #38B9C2;}*/
+    /*25%  {background: #54c0c7;}*/
+    /*50%  {background: #93ced2;}*/
+    /*75%  {background: #d3e3e4;}*/
+    /*100% {background: #ffffff;}*/
+/*}*/
+
+/*@-webkit-keyframes colorchange !* Safari and Chrome - necessary duplicate *!*/
+/*{*/
+    /*0%   {background: #38B9C2;}*/
+    /*25%  {background: #54c0c7;}*/
+    /*50%  {background: #93ced2;}*/
+    /*75%  {background: #d3e3e4;}*/
+    /*100% {background: #ffffff;}*/
+/*}*/
+/***********************************/
+#sidebar_main .sidebar_main_header {
+    height: inherit;
+    border-bottom: none;
+    background: none;
+}
+#sidebar_main .sidebar_main_header .sidebar_logo {
+    height: inherit;
+    line-height: inherit;
+    overflow: hidden;
+}
+#sidebar_main .sidebar_main_header .sidebar_logo a {
+    margin-left: 0;
+}
+#page_heading {
+    background: #f3f3f3;
+}
+#header_main {
+    background: #006BA4;
+}
+.logo_custom{
+    height: 160px;
+    width: auto;
+    margin-left: 6px;
+}
+.logo_custom_small{
+    margin-top: 10px;
+}
+.md-fab-wrapper.fab-save{
+    position: fixed !important;
+    top: 57px !important;
+    right: 24px !important;
+    height: fit-content !important;
+}
+.datatable-first-line > th{
+    text-align: center;
+}
+.wizard>.content>.body {
+    padding: 20px 24px 5px !important;
+}
+.wizard>.steps>ul>li {
+    width: inherit;
+}
+#sidebar_main .menu_section>ul>li.current_section>a .menu_title {
+    color: #008240;
+    font-weight: 700;
+}
+#sidebar_main .menu_section>ul>li.current_section>a>.menu_icon .material-icons {
+    color: #008240;
+}
+#sidebar_main .menu_section>ul>li ul li.act_item>a {
+    color: #008240;
+    font-weight: 700;
+}
+.uk-alert-info {
+    background: #008240 !important;
+}
+.wizard>.steps {
+    background: #006BA4 !important;
+}
+.wizard>.steps>ul>li.done a {
+    background: #008240;
+    color: #fff;
+}
+#dt_colVis>thead>tr>th{
+    font-weight: bold;
+    color: #000000bd;
+}
+#sidebar_main .menu_section>ul>li>a>.menu_icon {
+    width: 32px;
+}
+#sidebar_main {
+    width: 250px;
+}
+.box-compte h2 {
+    color: #008240 !important;
+}
+/*.box-compte:hover{*/
+    /*background-color: #00A000;*/
+/*}*/
+.patient-suivant {
+    position: fixed !important;
+    top: 57px !important;
+    right: 40% !important;
+    height: fit-content !important;
+}

@@ -1,0 +1,14 @@
+<div class="md-fab-wrapper md-fab-speed-dial-horizontal fab-save" data-fab-hover>
+    <div class="md-fab-wrapper-small">
+        {!! Html::decode(link_to_route('prospects.index', '<i class="material-icons">&#xe166;</i></a>', null,
+                array('class' => 'md-fab md-fab-small md-fab-default', 'title' => 'Annuler'))) !!}
+        <a class="md-fab md-fab-small md-fab-danger" href="{{ route('prospect.delete', [$prospect->id]) }}"
+           data-remote="false" data-confirm="Êtes-vous sûr de vouloir supprimer cet enregistrement ?">
+            <i class="material-icons">&#xe872;</i>
+        </a>
+        <button class="md-fab md-fab-small md-fab-warning" type="submit">
+            <i class="material-icons">&#xE161;</i>
+        </button>
+    </div>
+    <a class="md-fab md-fab-primary" href="javascript:void(0)"><i class="material-icons">&#xe896;</i></a>
+</div>
