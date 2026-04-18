@@ -56,12 +56,7 @@
                         <div class="uk-width-1-1">
                             <img src="{{ asset('images/logo_rabia.jpg') }}"  alt="" style="width: 300px; float: right;">
 
-                            <h3 class="blue-logo" style="margin: 0; font-weight: 600;">DR EL HADJI MBACKE SARR</h3>
-                            <h4 class="blue-logo" style="margin: 0; font-weight: 600; text-decoration: underline;">PH Cardiologue</h4>
-                            <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Diu Echodoppler coeur (Bordeaux)</h5>
-                            <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Diu Réadaptation cardiaque (Paris Diderot)</h5>
-                            <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Diu Cardiologue du sport (Montpellier)</h5>
-                            <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Explorations fonctionnelles vasculaires (CHRU LILLE)</h5>
+                            <h3 class="blue-logo" style="margin: 0; font-weight: 600;">CABINET MEDICAL RABIA</h3>
                         </div>
                     </div>
                 </div>

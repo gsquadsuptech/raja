@@ -18,12 +18,7 @@
                     <div class="uk-width-1-1">
                         <img src="{{ asset('images/logo_rabia.jpg') }}"  alt="" style="width: 300px; float: right;">
 
-                        <h3 class="blue-logo" style="margin: 0; font-weight: 600;">DR EL HADJI MBACKE SARR</h3>
-                        <h4 class="blue-logo" style="margin: 0; font-weight: 600; text-decoration: underline;">PH Cardiologue</h4>
-                        <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Diu Echodoppler coeur (Bordeaux)</h5>
-                        <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Diu Réadaptation cardiaque (Paris Diderot)</h5>
-                        <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Diu Cardiologue du sport (Montpellier)</h5>
-                        <h5 class="blue-logo" style="margin: 0; font-weight: 500;">Explorations fonctionnelles vasculaires (CHRU LILLE)</h5>
+                        <h3 class="blue-logo" style="margin: 0; font-weight: 600;">CABINET MEDICAL RABIA</h3>
                     </div>
                 </div>
             </div>
@@ -102,10 +97,6 @@
         @endif
     </div>
 
-    {{--<div class="invoice_footer" style="margin-left: -16px; margin-right: -16px">--}}
-        {{--<h4 style="margin: 5px;">Docteur El Hadji M'Backé SARR - Cardiologue</h4>--}}
-        {{--<p style="margin: 0;">Tél : 33 867 17 75 / 77 635 08 15 - BP : 12080 - Email : elhadjimbackesarr@gmail.com</p>--}}
-    {{--</div>--}}
     <style>
         @media print{
             @page{
